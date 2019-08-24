@@ -1,5 +1,12 @@
 {
-  "hosting": {
-    "public": "public"
-  }
+  "hosting": [
+    {
+      "target": "production",
+      "public": "public"
+    },
+    {
+      "target": "staging",
+      "public": "public"
+    }
+  ]
 }

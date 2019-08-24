@@ -1,0 +1,17 @@
+{
+  "projects": {
+    "default": "marcreichelt-de"
+  },
+  "targets": {
+    "marcreichelt-de": {
+      "hosting": {
+        "production": [
+          "marcreichelt-de"
+        ],
+        "staging": [
+          "marcreichelt-de-test"
+        ]
+      }
+    }
+  }
+}
