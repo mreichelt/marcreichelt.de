@@ -1,0 +1,72 @@
+https://keybase.io/mreichelt
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://marcreichelt.de
+  * I am mreichelt (https://keybase.io/mreichelt) on keybase.
+  * I have a public key with fingerprint 28BB 6E75 B68A 4EC3 0265  CA6F 0355 4124 3F07 D4FD
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101effe435704d12b502e9df398c292a91030abbd220edbe3dd2c8ab7c98e1ccb000a",
+            "fingerprint": "28bb6e75b68a4ec30265ca6f035541243f07d4fd",
+            "host": "keybase.io",
+            "key_id": "035541243f07d4fd",
+            "kid": "0101effe435704d12b502e9df398c292a91030abbd220edbe3dd2c8ab7c98e1ccb000a",
+            "uid": "c41b66ed784ff5a35f020a6ed9842e19",
+            "username": "mreichelt"
+        },
+        "revoke": {
+            "sig_ids": [
+                "2176b9d6870de326c816aa659b894de7c24b1afe8077da79f83d7471ffcb8fd00f"
+            ]
+        },
+        "service": {
+            "hostname": "marcreichelt.de",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1479382194,
+    "expire_in": 157680000,
+    "prev": "b8d426d67f13968fd12007efe0e34f394fc2c0643779151d76d1074e11167e1d",
+    "seqno": 16,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.58
+Comment: https://keybase.io/crypto
+
+yMJyAnicrZJ/aFZVGMffuTLfZWZSkSJil0YD381zzj33nHtf/xpJK1wRTXAsx+v5
+8Zztttf3vrv3vquhFk2IgiIipahl/aGGILhkRERlm8WMV2EKLjKRglqGFVOWBBV2
+7mp/9W9/Xe453+fzfHie8/ltjbmmhtOX0UtTx8aPNdQnfq/lulv3Hd/lyEgPO8Vd
+zgAsfKCsIUlLA6F2ig7CCIMxQF2PI6oxkR4iEGjjBr4iAREBRi4SUmpCEGgJrtZE
++UJyFfiAlZIIIeEUHBNW+iCuxmEltVjiS8mAe5L5goJyEWGeEswg1/MoJtQ1iGtq
+tC3sj5KswspJkUBbGNkz+1P6R++/+f/Zu7aAUxRLxkBznxrjCdcziCBhDwKfEsBB
+FkwgroidYNM7YwhVP5RTZ0/BiWEoGoBssEnYZ60Tp/iEQzBnMtDM50iDS5jyMROC
+eYH0A6qBK0IlFgZ8xLkWPDC+qznl2BglfaMRMk6vZduWQ6FagGdjWmwvYrVo0KbB
+ulXjKI1UVLaX/WlaTYqZWDpczdJPgSz9yynJsKLtnmzFEMRJGFWcIrZJlYYZGFMe
+uD7BAS048HQ1jKEUZgmPM99OC2V9YMgipa8pYZpxg92AWV9MEOJgAIFL7QaoUUQh
+Rl3OA+xhzZnGiFPAGDMOONtiAoOVyLKZ9RR9lmmHVxFpLQZnz+Rn22/KNTTllt68
+JHvAuab8ysVn3fnMstzo/OOH9Y1Lb9d/Wn3+kW/btvw4ce7CwMzdIx9s2zAX3j5a
+nFw23z0mlgd/7du+4pvnP/ljuL+4Y93PK3e87pRPr9/Y3njSXXLrr/k3r72ze75z
+3amZ6/mDU/V7OqZeLNdWHWiWQcuBXnP9lgcu5lvrhQ9P7F4+Jn7Y/1Zn4TLtfaW9
+e++NTVefG7xy73jz2oe3mMMnT7zXuDH/9ZE3ipWJye/3/3mp5647V6TPzh2tf5p0
+Xel64auRpS3vX5xtP9pSu+/dM79sfmj9d9WxJ+eCx3ruz9GXp1+tT69ZfWr0jo+O
+b/54duvV8VrrhbXR9LbfBtecO//FTE/fwS9hb65r5OyjHWcPdWxq3JB78LXma7N/
+AzJrYE8=
+=HzFZ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mreichelt
