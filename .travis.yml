@@ -1,11 +1,17 @@
 language: node_js
 node_js:
   - "11.0"
-branches:
-  only:
-    - master
 before_script:
   - npm install -g firebase-tools
-script:
-  - cd web
-  - firebase deploy --only hosting:staging
+stages:
+  - test
+  - name: deploy-staging
+    if: branch = staging
+  - name: deploy-production
+    if: branch = master
+jobs:
+  include:
+    - stage: deploy-staging
+      script: echo "deploying to staging"
+    - stage: deploy-production
+      script: echo "deploying to production"
