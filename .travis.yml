@@ -12,6 +12,10 @@ stages:
 jobs:
   include:
     - stage: deploy-staging
-      script: echo "deploying to staging"
+      script:
+        - cd web
+        - firebase deploy --only hosting:staging
     - stage: deploy-production
-      script: echo "deploying to production"
+      script:
+        - cd web
+        - firebase deploy --only hosting:production
