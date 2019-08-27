@@ -1,165 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Marc Reichelt</title>
-		<link rel="shortcut icon" href="/favicon.ico">
-		<meta charset="utf-8">
-		<meta name="robots" content="index,follow">
-		<meta name="author" content="Marc Reichelt">
-		<script src="/default.js" async></script>
-		<style type="text/css">
-html, body {
-	font-family: Verdana, Arial, sans-serif;
-	font-size: 12pt;
-	background-color: #2c445e;
-}
 
-body {
-	padding: 10pt;
-}
+<head>
+	<title>Marc Reichelt</title>
+	<link rel="shortcut icon" href="/favicon.ico">
+	<meta charset="utf-8">
+	<meta name="robots" content="index,follow">
+	<meta name="author" content="Marc Reichelt">
+	<script src="/default.js" async></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+	<style type="text/css">
+		html,
+		body {
+			/* color definions for code parts from IntelliJ Darcula */
+			--codeBackgroundColor: #2b2b2b;
+			--codeTextColor: #a6b7c8;
+			--codeKeywordColor: #d97416;
+			--codeFunctionColor: #ffc45b;
+			--codeCommentColor: #808080;
+			--codeValueColor: #5a98bf;
+			--codeParameterColor: #9f73ae;
+			--codeStringColor: #628954;
 
-.contentbox {
-	background-color: #eeeeee;
-	padding: 10pt;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-	clear: both;
-	float: left;
-	display: inline-block;
-	width: 66%;
-	min-width: 600px;
-	margin: 0 15pt 15pt 0;
-}
+			font-family: 'Roboto Mono', monospace;
+			font-size: 20pt;
+			background-color: var(--codeBackgroundColor);
+			color: var(--codeTextColor);
+		}
 
-.linkbox {
-	display: block;
-	float: left;
-	margin: 15pt 15pt 15pt 0;
-	padding-bottom: 3px;
-	text-decoration: none;
-	text-align: center;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-}
+		body {
+			padding: 8pt;
+		}
 
-.linkbox:hover, .linkbox:focus {
-	background-color: #2c445e;
-}
+		p {
+			padding: 0;
+			margin: 0;
+		}
 
-.linkbox:hover span, .linkbox:focus span {
-	color: #ffffff;
-}
+		img {
+			border: 0;
+		}
 
-p {
-	margin: 5pt 0 0 0;
-}
+		a {
+			color: var(--codeStringColor);
+		}
 
-#h1box {
-	background-color: #faa51b;
-	padding: 10pt;
-	margin: 0 0 15pt 0;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-	text-shadow: #2c445e 1px 1px 2px;
-	color: #ffffff;
-	width: 66%;
-	min-width: 600px;
-}
+		.c0 {
+			color: #cc7832;
+		}
 
-h1 {
-	font-size: 150%;
-	font-weight: bold;
-	margin: 0;
-	padding: 0;
-}
+		.c1 {
+			orphans: 2;
+			widows: 2;
+		}
 
-#h1box p {
-	color: #ffffff;
-	font-weight: bold;
-	margin: 2px 0 0 0;
-	padding: 0;
-}
+		.c8 {
+			font-style: italic;
+			color: #9876aa
+		}
 
-h2 {
-	margin: 0;
-	padding: 0;
-	font-size: 120%;
-	font-weight: bold;
-}
+		.c2 {
+			color: #467cda
+		}
 
-table {
-	border: 0;
-	margin: 10pt 0 0 0;
-}
+		.c4 {
+			color: #cc7832
+		}
 
-td {
-	padding: 0 10pt 0 0;
-	margin: 0;
-}
+		.c3 {
+			color: #a9b7c6
+		}
 
-a {
-	color: #0000ff;
-}
-
-a:hover {
-	color: #6666ff;
-}
-
-img {
-	border: 0;
-}
-		</style>
-	</head>
-	<body itemscope itemtype="http://schema.org/Person">
-		<div id="h1box">
-			<h1 itemprop="name">Marc Reichelt</h1>
-			<p>web &amp; mobile development</p>
-		</div>
+		.c6 {
+			color: #6a8759
+		}
 		
-		<div class="contentbox">
-			<img src="images/marc_reichelt.png" alt="Marc Reichelt" title="Marc Reichelt" width="100" height="100" style="float: right; margin: 0 0 0 10pt" itemprop="image">
-			<h2>About Me</h2>
-			<p>My name is Marc Reichelt. I have studied Electrical Engineering and Information Technology at <a href="http://www.tu-darmstadt.de/">Technische Universität Darmstadt</a>, where I graduated as Dipl.-Ing. In my free time I write applications for <a href="http://www.android.com/">Android</a> and I love to work on open source projects, especially Linux-based. You might want to check my <a href="https://google.com/+MarcReichelt">Google+ profile</a> for news and my <a href="https://twitter.com/mreichelt">Twitter page</a> for more frequent updates.</p>
-			
-		</div>
-		
-		<div class="contentbox" style="padding-bottom: 0">
-			<h2>Social</h2>
-			
-			<a href="https://twitter.com/mreichelt" title="Twitter" class="linkbox"><img src="images/twitter.png" alt="Twitter" width="100" height="100" /><br/><span>Twitter</span></a>
-			<a href="https://google.com/+MarcReichelt" title="Google+" class="linkbox"><img src="images/googleplus.png" alt="Google+" width="100" height="100" /><br/><span>Google+</span></a>
-			<a href="http://facebook.com/marc.reichelt" title="Facebook" class="linkbox"><img src="images/facebook.png" alt="Facebook" width="100" height="100" /><br/><span>Facebook</span></a>
-			<a href="http://xing.com/profile/Marc_Reichelt3" title="Xing" class="linkbox"><img src="images/xing.png" alt="Xing" width="100" height="100" /><br/><span>Xing</span></a>
-		</div>
-		
-		<div class="contentbox">
-			<h2>Projects &amp; Activities</h2>
-			
-			<ul>
-				<li><a href="https://flinc.org">flinc ridesharing</a> (Android lead developer)</li>
-				<li><a href="https://play.google.com/store/apps/details?id=de.nichtlustig.android">NICHTLUSTIG App for Android</a></li>
-			</ul>
-		</div>
-		
-		<div class="contentbox">
-			<h2>Contact</h2>
-			<meta itemprop="birthDate" content="1984-11-29">
-			<div itemscope itemtype="http://schema.org/Organization" style="display:none">
-				<span itemprop="name">iteratec GmbH</span>
-				<span itemprop="url">http://www.iteratec.de/</span>
-			</div>
-			<table itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-				<tbody>
-					<tr><td>Address: </td><td><span itemprop="streetAddress">Am Schlittenberg 15</span>, <span itemprop="postalCode">63486</span> <span itemprop="addressLocality">Bruchköbel</span>, <span itemprop="addressCountry">Germany</span></td></tr>
-					<tr><td>Mobile: </td><td><a href="tel:+491719646390">+49 - (0) 171 - 964 63 90</a></td></tr>
-					<tr><td>E-Mail: </td><td><span id="addressplacer"><a href="#" onclick="showAddress(); return false;">click here to view address</a> (JavaScript required)</span></td></tr>
-				</tbody>
-			</table>
-		</div>
-		
-	</body>
+	</style>
+</head>
+
+<body class="c9">
+	<p class="c1"><span class="c4">val </span><span class="c8">me </span><span class="c5 c3">= Person(</span></p>
+	<p class="c1"><span class="c3">&nbsp; &nbsp;</span><span class="c2">name = </span><span class="c6">&quot;Marc
+			Reichelt&quot;</span><span class="c0">,</span></p>
+	<p class="c5"><span class="c6">&nbsp; &nbsp;</span><span class="c2">summary = </span><span
+			class="c6">&quot;Developer. Loves Linux, open source &amp; self-driving cars. &quot; </span><span
+			class="c4 c3">+</span></p>
+	<p class="c5"><span class="c6">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c6">&quot;Making the world better, one
+			step at a time!&quot;</span><span class="c4">,</span></p>
+
+	<p class="c1">&nbsp;</p>
+
+	<p class="c1"><span class="c4">&nbsp; &nbsp;</span><span class="c2">twitter = </span><span class="c6">&quot;<a
+				href="https://twitter.com/mreichelt">https://twitter.com/mreichelt</a>&quot;</span><span
+			class="c0">,</span></p>
+	<p class="c1"><span class="c4">&nbsp; &nbsp;</span><span class="c2">blog = </span><span class="c6">&quot;<a
+				href="https://medium.com/@mreichelt">https://medium.com/@mreichelt</a>&quot;</span><span
+			class="c0">,</span></p>
+
+	<p class="c1">&nbsp;</p>
+
+	<p class="c1"><span class="c4">&nbsp; &nbsp;</span><span class="c2">contactDetails = </span><span
+			class="c5 c3">ContactDetails(</span></p>
+	<p class="c1"><span class="c3">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c2">address = </span><span
+			class="c6">&quot;Am Schlittenberg 15, 63486 Bruchk&ouml;bel, Germany&quot;</span><span class="c0">,</span>
+	</p>
+	<p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c2">phone = </span><span
+			class="c6">&quot;<a href="tel:+491719646390">+49 - (0) 171 - 964 63 90</a>&quot;</span><span
+			class="c0">,</span></p>
+	<p class="c1"><span class="c4">&nbsp; &nbsp; &nbsp; &nbsp;</span><span class="c2">email = </span>
+		<span class="c5 c6">&quot;<span id="addressplacer"><a href="#" onclick="showAddress(); return false;">&lt;click
+					here to reveal&gt;</a></span>&quot;</span></p>
+	<p class="c1"><span class="c6">&nbsp; &nbsp;</span><span class="c5 c3">)</span></p>
+	<p class="c1"><span class="c3 c5">)</span></p>
+	<p class="c1 c7"><span class="c0"></span></p>
+</body>
+
 </html>
-
